@@ -1,0 +1,16 @@
+# This repository contains download documentation only.
+*.exe
+*.dll
+*.asar
+*.zip
+*.tar
+*.gz
+*.json
+*.log
+node_modules/
+build-workspace/
+artifacts/
+.test-results/
+.env*
+Thumbs.db
+.DS_Store
