@@ -8,11 +8,13 @@
 
 **[下载 Windows 公开测试版](https://github.com/nicklinnn-19/nic-calendar/releases)** · [使用说明](使用指南.md) · [反馈问题](https://github.com/nicklinnn-19/nic-calendar/issues)
 
-当前版本：**0.3.6-beta.1**。此仓库只提供程序下载、使用说明与版本记录；项目自有源码暂不公开授权。
+当前版本：**0.3.6-beta.2**。此仓库只提供程序下载、使用说明与版本记录；项目自有源码暂不公开授权。
 
 ![周视图示例](week.png)
 
 截图中的课程与日程为演示数据，下载版首次启动为空白日历。
+
+本版优化：[查看优化报告](OPTIMIZATION_REPORT.md)。功能与外观保持原样，下载包减少约 12.2 MiB，解压后减少约 58.0 MiB。
 
 ## 可以做什么
 
@@ -27,7 +29,7 @@
 
 ## 下载与运行
 
-1. 打开 [Releases](https://github.com/nicklinnn-19/nic-calendar/releases)，下载 `nic-calendar-0.3.6-beta.1-windows-x64.zip`。
+1. 打开 [Releases](https://github.com/nicklinnn-19/nic-calendar/releases)，下载 `nic-calendar-0.3.6-beta.2-windows-x64.zip`。
 2. **完整解压**到固定文件夹，双击其中的 `nic日历.exe`。无需安装 Node.js、Git 或开发环境。
 3. 初次使用可先新建日程，或点击侧边栏“导入课表”。
 
@@ -38,7 +40,7 @@
 本测试版尚未进行商业代码签名，Windows 可能显示“未知发行者”。发行页附有 `SHA256SUMS.txt`，可用于核对文件是否与发行包一致。
 
 ```powershell
-Get-FileHash .\nic-calendar-0.3.6-beta.1-windows-x64.zip -Algorithm SHA256
+Get-FileHash .\nic-calendar-0.3.6-beta.2-windows-x64.zip -Algorithm SHA256
 ```
 
 ## 数据与提醒
