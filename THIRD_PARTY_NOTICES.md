@@ -5,6 +5,7 @@
 | 组件 | 用途 | 上游与许可证 |
 | --- | --- | --- |
 | Electron 44.8.0 | Windows运行时 | https://github.com/electron/electron · MIT及Chromium第三方许可 |
+| electron-updater 6.8.9 | 安装版更新 | https://github.com/electron-userland/electron-builder · MIT |
 | SheetJS CE 0.20.3 | Excel课表解析 | https://sheetjs.com/ · Apache-2.0 |
 | Mammoth 1.13.0 | Word课表解析 | https://github.com/mwilliamson/mammoth.js · BSD-2-Clause |
 | PDF.js / pdfjs-dist 6.4.299 | PDF文字与页面渲染 | https://github.com/mozilla/pdf.js · Apache-2.0 |
